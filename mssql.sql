@@ -5,3 +5,6 @@ SET @value = left(@value,(CHARINDEX('gsm', @value)-1)  )
 SELECT @Value
 SET @value = RIGHT(@Value,CHARINDEX(' ', REVERSE(@value)))
 SELECT @value
+
+
+https://stackoverflow.com/questions/60377541/transform-table-by-date-into-a-new-from-to-table
